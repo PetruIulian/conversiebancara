@@ -11,7 +11,7 @@ jobs:
         uses: subosito/flutter-action@v2
 
       - name: run format
-        run: flutter format --line-length 120 --set-exit-if-changed .\lib
+        run: flutter format --line-length 120 --set-exit-if-changed ./lib
 
       - name: analyze code
         run: flutter analyze
